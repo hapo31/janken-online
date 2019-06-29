@@ -3,8 +3,7 @@ import Actions from "../../Actions/UserName/UserName";
 
 const initialState = {
   nameEntered: false,
-  name: "No Name",
-  count: 0
+  name: "No Name"
 };
 
 export const reducer = handleActions(

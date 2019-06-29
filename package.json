@@ -1,0 +1,26 @@
+{
+  "name": "janken-online",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "happou31 <happo31@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/client/index.html",
+    "build": "parcel build ./src/client/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.1.1",
+    "@types/redux-actions": "^2.6.1",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5"
+  }
+}

@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel ./src/client/index.html",
-    "build": "parcel build ./src/client/index.html"
+    "build": "parcel build ./src/client/index.html",
+    "server": "go run ./src/server/ws_server.go ./src/server/queue.go"
   },
   "devDependencies": {
     "@types/react": "^16.8.22",

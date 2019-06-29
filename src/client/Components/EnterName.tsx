@@ -1,4 +1,6 @@
 import React, { useRef, useCallback } from "react";
+import H2 from "./Atom/H2";
+import AlignCenter from "./Atom/AlignCenter";
 
 type Props = {
   defaultName: string;
@@ -20,11 +22,15 @@ export default (props: Props) => {
         width: "500px"
       }}
     >
-      <div>Enter Your Name.</div>
-      <div>
-        <input ref={textRef} type="text" defaultValue={props.defaultName} />
-        <button onClick={onClickButton}>Submit</button>
-      </div>
+      <H2>Enter Your Name.</H2>
+      <AlignCenter>
+        <div>
+          <input ref={textRef} type="text" defaultValue={props.defaultName} />
+        </div>
+        <div>
+          <button onClick={onClickButton}>Submit</button>
+        </div>
+      </AlignCenter>
     </div>
   );
 };

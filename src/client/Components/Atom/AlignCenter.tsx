@@ -1,5 +1,4 @@
 import React from "react";
-import AlignCenter from "./AlignCenter";
 
 type Props = {
   style?: React.CSSProperties;
@@ -7,12 +6,12 @@ type Props = {
 };
 
 export default (props: Props) => (
-  <AlignCenter
+  <div
     style={{
-      fontSize: "24px",
+      textAlign: "center",
       ...props.style
     }}
   >
     {props.children}
-  </AlignCenter>
+  </div>
 );

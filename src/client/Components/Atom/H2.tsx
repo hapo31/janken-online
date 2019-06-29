@@ -9,7 +9,7 @@ type Props = {
 export default (props: Props) => (
   <AlignCenter
     style={{
-      fontSize: "24px",
+      fontSize: "16px",
       ...props.style
     }}
   >
